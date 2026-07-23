@@ -1,2 +1,3 @@
-# lineage2m-market
-Lineage2M Shaha Eden Trading Platform
+# L2M Trade V1
+
+天堂2M 玩家交易、鑽石買賣、擊殺懸賞與社群平台。
