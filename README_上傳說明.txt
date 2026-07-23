@@ -1,0 +1,1 @@
+將本資料夾內所有內容上傳至 GitHub repository 根目錄。覆蓋 index.html 與 assets/css/style.css，並新增 assets/images、item.html、skill.html。
