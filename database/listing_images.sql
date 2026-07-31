@@ -1,0 +1,19 @@
+CREATE TABLE Listing_Images (
+
+    Image_ID INT AUTO_INCREMENT PRIMARY KEY,
+
+    Listing_ID INT NOT NULL,
+
+    Image_URL VARCHAR(500) NOT NULL,
+
+    Sort_Order INT DEFAULT 0,
+
+    Is_Cover BOOLEAN DEFAULT FALSE,
+
+    Create_Time DATETIME DEFAULT CURRENT_TIMESTAMP,
+
+    FOREIGN KEY (Listing_ID)
+        REFERENCES Listings(Listing_ID)
+        ON DELETE CASCADE
+
+);
